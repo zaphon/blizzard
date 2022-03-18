@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/FuzzyStatic/blizzard/v2/wowcgd"
-	"github.com/FuzzyStatic/blizzard/v2/wowsearch"
+	"github.com/zaphon/blizzard/v2/wowcgd"
+	"github.com/zaphon/blizzard/v2/wowsearch"
 )
 
 // ClassicWoWConnectedRealmsIndex returns an index of connected realms.

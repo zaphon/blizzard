@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/FuzzyStatic/blizzard/d3gd"
+	"github.com/zaphon/blizzard/d3gd"
 )
 
 // D3SeasonIndex returns an index of seasons

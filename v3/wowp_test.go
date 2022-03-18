@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FuzzyStatic/blizzard/wowp"
+	"github.com/zaphon/blizzard/wowp"
 )
 
 func TestWoWCharacterAchievementsSummary(t *testing.T) {

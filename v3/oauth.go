@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/FuzzyStatic/blizzard/oauth"
+	"github.com/zaphon/blizzard/oauth"
 	"golang.org/x/oauth2"
 )
 

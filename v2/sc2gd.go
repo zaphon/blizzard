@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/FuzzyStatic/blizzard/v2/sc2gd"
+	"github.com/zaphon/blizzard/v2/sc2gd"
 )
 
 // SC2LeagueData returns all SC2 league data from for seasonID, queue ID, team type, and league ID

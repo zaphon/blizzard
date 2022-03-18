@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/FuzzyStatic/blizzard/wowp"
-	"github.com/FuzzyStatic/blizzard/wowsearch"
+	"github.com/zaphon/blizzard/wowp"
+	"github.com/zaphon/blizzard/wowsearch"
 	"github.com/go-playground/validator"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/clientcredentials"

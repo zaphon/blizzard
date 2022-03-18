@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/FuzzyStatic/blizzard/v2/wowp"
-	"github.com/FuzzyStatic/blizzard/v2/wowsearch"
+	"github.com/zaphon/blizzard/v2/wowp"
+	"github.com/zaphon/blizzard/v2/wowsearch"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/clientcredentials"
 )
