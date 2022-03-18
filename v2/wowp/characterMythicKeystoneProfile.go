@@ -72,6 +72,15 @@ type CharacterMythicKeystoneProfile struct {
 		} `json:"key"`
 		ID int `json:"id"`
 	} `json:"seasons"`
+	CurrentMythicRating struct {
+		Color struct {
+			R int `json:"r"`
+			G int `json:"g"`
+			B int `json:"b"`
+			A int `json:"a"`
+		} `json:"color"`
+		Rating float64 `json:"rating"`
+	} `json:"current_mythic_rating"`
 }
 
 // CharacterMythicKeystoneProfileSeason structure
