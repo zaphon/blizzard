@@ -74,10 +74,10 @@ type CharacterMythicKeystoneProfile struct {
 	} `json:"seasons"`
 	CurrentMythicRating struct {
 		Color struct {
-			R int `json:"r"`
-			G int `json:"g"`
-			B int `json:"b"`
-			A int `json:"a"`
+			R float64 `json:"r"`
+			G float64 `json:"g"`
+			B float64 `json:"b"`
+			A float64 `json:"a"`
 		} `json:"color"`
 		Rating float64 `json:"rating"`
 	} `json:"current_mythic_rating"`
