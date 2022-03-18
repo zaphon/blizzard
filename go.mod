@@ -1,4 +1,4 @@
-module github.com/FuzzyStatic/blizzard
+module github.com/zaphon/blizzard
 
 go 1.16
 
