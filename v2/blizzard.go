@@ -135,7 +135,7 @@ func (c *Client) SetRegion(region Region) {
 		c.staticNamespace = "static-zh"
 		c.staticClassicNamespace = "static-classic-zh"
 	default:
-		c.oauthHost = fmt.Sprintf("https://oauth.battle.net")
+		c.oauthHost = "https://oauth.battle.net"
 		c.apiHost = fmt.Sprintf("https://%s.api.blizzard.com", region)
 		c.dynamicNamespace = fmt.Sprintf("dynamic-%s", region)
 		c.dynamicClassicNamespace = fmt.Sprintf("dynamic-classic-%s", region)
@@ -144,7 +144,7 @@ func (c *Client) SetRegion(region Region) {
 		c.staticClassicNamespace = fmt.Sprintf("static-classic-%s", region)
 	}
 
-	c.cfg.TokenURL = c.oauthHost + "/oauth/token"
+	c.cfg.TokenURL = c.oauthHost + "/token"
 	c.httpClient = c.cfg.Client(context.Background())
 }
 
