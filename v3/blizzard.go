@@ -189,7 +189,7 @@ func (c *Client) SetRegionParameters(region Region, locale Locale) error {
 		c.staticNamespace = "static-zh"
 		c.staticClassicNamespace = "static-classic-zh"
 	default:
-		c.oauthHost = fmt.Sprintf("https://%s.battle.net", region)
+		c.oauthHost = fmt.Sprintf("https://oauth.battle.net")
 		c.apiHost = fmt.Sprintf("https://%s.api.blizzard.com", region)
 		c.dynamicNamespace = fmt.Sprintf("dynamic-%s", region)
 		c.dynamicClassicNamespace = fmt.Sprintf("dynamic-classic-%s", region)
